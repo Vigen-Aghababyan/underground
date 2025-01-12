@@ -1,0 +1,7 @@
+/* App.css */
+.active-link {
+  color: red;
+  /* Красный цвет для активной ссылки */
+  font-weight: bold;
+  /* Жирный шрифт */
+}

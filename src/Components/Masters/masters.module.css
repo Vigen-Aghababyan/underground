@@ -1,0 +1,137 @@
+.mastersSection {
+    padding: 120px 0 175px 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url('/images/backgroundIMG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.masters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.masters h3 {
+    text-transform: uppercase;
+    color: var(--sections-name-color);
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 230px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vilText {
+    width: 33%;
+    display: flex;
+    justify-content: safe;
+    flex-direction: column;
+    align-items: center;
+
+    font-weight: 400;
+    color: var(--text-color)
+}
+
+.vilText h4 {
+    font-size: 70px;
+    ;
+}
+
+.vilText p {
+    font-size: 24px;
+}
+
+.imageMaster {
+    width: 30%;
+    text-align: center;
+}
+
+.mastersName {
+    width: 36%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: safe;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.mastersName p {
+    margin-right: 80px;
+    font-size: 30px;
+    position: relative;
+}
+
+.mastersName p::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: var(--text-color);
+    position: absolute;
+    left: 120%;
+    top: 50%;
+
+}
+
+
+.mastersName ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: end;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1330px) {
+
+.mastersSection {
+        padding: 50px 0 100px 0;
+    }
+        .masters h3 {
+            font-size: 50px;
+            margin-bottom: 150px;
+        }
+
+        .vilText h4 {
+            font-size: 30px;
+        }
+    
+        .vilText p {
+            font-size: 16px;
+        }
+      
+        .imageMaster img {
+            width: 150px;
+            height: 100%;
+
+        }
+    
+        .mastersName {
+            padding-left: 100px;
+        }
+        .mastersName p {
+            margin-right: 80px;
+            font-size: 16px;
+        }
+    
+        .mastersName p::after {
+            content: "";
+            width: 40px;
+            left: 160%;
+        }
+        .mastersName ul {
+            gap: 5px;
+            font-size: 14px;
+        }
+}

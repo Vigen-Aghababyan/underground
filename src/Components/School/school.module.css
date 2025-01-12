@@ -1,0 +1,87 @@
+.school {
+    padding: 120px 0 175px 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url('/images/backgroundIMG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.schoolCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schoolCont h3 {
+    text-transform: uppercase;
+    color: var(--sections-name-color);
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 230px;
+}
+
+
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 22px ;
+}
+
+.aboutSchool{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.learning{
+
+}
+.price{
+
+}
+
+.masterclass{
+width: 50%;
+display: flex;
+justify-content: end;
+flex-direction: column;
+}
+
+
+@media (max-width: 1330px) {
+
+    .school {
+        padding: 50px 0 100px 0;
+    }
+
+    .schoolCont h3 {
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px ;
+}
+
+.aboutSchool{
+    width: 50%;
+    margin: 0 auto;
+}
+.masterclass{
+width: 100%;
+margin: 5px;
+}
+}

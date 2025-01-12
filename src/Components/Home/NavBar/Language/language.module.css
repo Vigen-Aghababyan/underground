@@ -1,0 +1,56 @@
+
+.language {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 300px;
+}
+
+.selectCont{
+    width: 100%;
+    max-width: 210px;
+    /* height: 47px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectBox {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    min-width: 100px;
+    opacity: 0.6;
+}
+.selectBox option {
+    text-align: center;
+    background-color: var(--language-color);
+    color: var(--text-color);
+}
+
+
+.selectBox option::-ms-expand {
+    display: none;
+}
+
+
+/* Мобильная версия */
+/* Мобильная версия */
+@media (max-width: 1330px) {
+    .language {
+        max-width: 80px;
+    }
+    .selectCont{
+    max-width: 80px;
+}
+.selectBox {
+    min-width: 80px;
+    padding: 3px 4px;
+    font-size: 12px;
+}
+
+}

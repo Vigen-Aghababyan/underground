@@ -1,0 +1,59 @@
+{
+   "nav":
+       {
+        "home": "PHILOSOPHY",
+        "portfolio": "GALLERY",
+        "masters": "ARTISTS",
+        "pirsting": "PIERCING",
+        "school": "COURSES",
+        "giftcard": "gift card",
+        "registration": "contacts"
+    },
+     "home":{
+        "create": "CREATING THE STUDIO, A TEAM OF ARTISTS",
+        "studio": "underground evn",
+        "cell": "DEFINED ITS CORE PRINCIPLE OF WORK: HELPING CLIENTS MAKE A CONSCIOUS CHOICE IN SELECTING THEIR FUTURE TATTOO"
+    },
+        "masters": {
+        "name": "ARTISTS",
+        "vil": "Vil",
+        "style": "Style",
+        "realism": "Realism",
+        "master": ["Arthur", "Harut", "Armen","Lusine","Hayk","Fyodor","Erika","Valentin","Mark"]
+    },
+     "pirsting":"At our tattoo studio, piercing is performed by the best master, ensuring high quality and precision with every procedure. We offer a wide selection of jewelry to help you create your unique style.",
+         "school": {
+        "lite": "Lite Training",
+        "classes": "4 theory classes",
+        "practic": "10 practical classes (4 models)",
+        "materials": "Consumables included",
+        "cooperate": "Opportunity for collaboration with the studio @underground.evn",
+        "discount": "15% discount on the first month of work in the studio",
+        "duration": "Course duration: 1–1.5 months",
+        "credit": " Installment plan available from Idbank (Rocket Line)",
+        
+        "pro": "Pro Training ",
+        "classesPro": "Advanced theory (6 classes)",
+        "paintIpad": "Drawing on iPad (4 classes)",
+        "marceting": "Marketing (2 classes)",
+        "practicPro": "18 practical classes (6 models)",
+        "materialsPro": "Consumables gift (professional tattoo machine)",
+        "cooperatePro": "Opportunity for collaboration with the studio @underground.evn  ",
+        "discountPro": "30% discount on the first month of work in the studio",
+        "durationPro": "Course duration: 2–2.5 months",
+        "creditPro": "Installment plan available from Idbank (Rocket Line)",
+       "masterClass" : "*Our studio also frequently hosts master classes and advanced training courses. For more information, please contact our administrator"
+    },
+    "giftCardText":"A gift card from our studio can be the perfect surprise for those who appreciate creativity and style. Allow your loved ones to choose what they truly want!",
+     "registration": {
+        "name": "NAME",
+        "placeName": "ANI",
+        "number": "MOBILE",
+        "numberPlace": "+374 77000000",
+        "contact": "Contacts",
+        "phonNumber": "Phone Number: (WhatsApp/Telegram)",
+        "phone": "+374-91-950-414",
+        "adress": "Address: 22/1 Yervand Kochar",
+        "send": "Send"
+    }
+}

@@ -1,0 +1,249 @@
+.registration {
+    padding: 120px 0 175px 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url('/images/backgroundIMG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.registrCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registrCont h3 {
+    text-transform: uppercase;
+    color: var(--sections-name-color);
+    font-size: 74px;
+    font-weight: 700;
+    margin-bottom: 230px;
+    text-align: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 400;
+    
+}
+
+.form label {
+    width: 500px;
+    height: 126px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+    text-align: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.form label input {
+    width: 100%;
+    height: 74px;
+    font-size: 22px;
+}
+
+/* Chrome, Safari, Edge */
+.form label input[type="number"]::-webkit-outer-spin-button,
+.form label input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.form label input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+.form button {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B5B5B;
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contacts {
+    width: 100%;
+    display: flex ;
+    padding: 68px 0;
+    gap: 300px;
+}
+
+
+
+/* 
+.adress {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.adress h4 {
+    position: relative;
+}
+
+.adress h4::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    background-color: white;
+}
+
+.social {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.social img {
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+} */
+
+.adress{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adress h4 {
+    /* position: relative; */
+    margin: 0 auto;
+    color: var(--text-color);
+    font-size: 40px;
+}
+/* 
+.adress h4::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -1.5rem;
+    background-color: white;
+} */
+
+.adress ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.adress ul li {
+    margin-top: 10px;
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.adress ul li a {
+    margin-top: 10px;
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.social div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 50px; */
+}
+
+
+@media (max-width: 1330px) {
+ 
+    .registration {
+        padding: 50px 0 100px 0;
+    }
+
+    .registrCont h3 {
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+.form {
+    font-size: 22px;
+
+}
+
+.form label {
+    width: 300px;
+    height: 80px;
+    margin-top: 5px;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.form label input {
+    width: 100%;
+    height: 50px;
+}
+.form button {
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+}
+
+.contacts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adress h4 {
+    font-size: 26px;
+}
+.adress ul li {
+    font-size: 16px;
+}
+
+.adress ul li a {
+    font-size: 16px;
+}
+
+.social {
+    width: 100%;
+    gap: 10px;
+}
+
+.social div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+}

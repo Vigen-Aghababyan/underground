@@ -1,0 +1,69 @@
+.sliderContainer {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    /* Можно увеличить для трех изображений */
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.sliderImageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.sliderImage {
+    width: 270px;
+    height: 450px;
+    display: block;
+}
+
+.sliderButton {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    transform: translateY(-50%);
+    user-select: none;
+}
+
+.sliderButton.left {
+    left: -200px;
+}
+
+.sliderButton.right {
+    right: -200px;
+}
+
+@media (max-width: 1330px) {
+
+.sliderContainer {
+       
+        width: 90%;
+        max-width: 500px;
+       
+    }
+    .sliderImage {
+        width: 100px;
+        height: 170px;
+    }
+
+    .sliderButton img {
+        width: 30px;
+        height: 15px;
+    }
+    .sliderButton.left {
+        left: -50px;
+    }
+
+    .sliderButton.right {
+        right: -50px;
+    }
+}

@@ -1,0 +1,44 @@
+:root {
+    --text-color: #D3D2D2;
+    --sections-name-color: #565656;
+    --language-color: #5B5B5B
+
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    max-width: 1680px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Tablet version
+
+@media (max-width:1040px){
+    .wrapper {
+        max-width: 694px;
+    }
+} */
+
+/* Phone version */
+
+@media (max-width:1330px){
+    .wrapper {
+        padding: 0 32px;
+        max-width: 694px;
+    }
+}

@@ -1,0 +1,36 @@
+.portfolio {
+    padding: 120px 0 175px 0;
+    width: 100%;
+    min-height: 100vh;
+    background: url('/images/backgroundIMG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolioCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolioCont h3 {
+    text-transform: uppercase;
+    color: var(--sections-name-color);
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 230px;
+}
+
+
+
+@media (max-width: 1330px) {
+  .portfolio {
+    padding: 50px 0 100px 0;
+  }
+.portfolioCont h3 {
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+}
