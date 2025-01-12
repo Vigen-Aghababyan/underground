@@ -22,8 +22,8 @@ const LanguageSwich = () => {
     
     return (<div className={classes.selectCont}>
             <select value={optionVal} onChange={swichLang}  className={classes.selectBox}>
-                <option value='ru'>RU</option>
                 <option value='en'>EN</option>
+                <option value='ru'>RU</option>
                 <option value='am'>AM</option>
             </select>
        </div> );

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import classes from "./pirsting.module.css"
-import image from "/images/Pirsting/pirsting.png"
+import image from "/images/Masters/master.png"
 
 const Pirsting = () => {
 

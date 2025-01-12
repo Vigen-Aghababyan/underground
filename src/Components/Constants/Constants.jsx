@@ -62,3 +62,16 @@ export const BUTTONS = [
     'images/Left.png',
     'images/Right.png',
 ]
+
+export const MASTERS = [
+    { id: 1,  photo: '/images/Protfolio/1.png' },
+    { id: 2, photo: '/images/Protfolio/2.png' },
+    { id: 3, photo: '/images/Protfolio/3.png' },
+    { id: 4, photo: '/images/Protfolio/4.png' },
+    { id: 5, photo: '/images/Protfolio/5.png' },
+    { id: 6, photo: '/images/Protfolio/6.png' },
+    { id: 7, photo: '/images/Protfolio/7.png' },
+    { id: 8, photo: '/images/Protfolio/8.png' },
+    { id: 9, photo: '/images/Protfolio/8.png' },
+    { id: 10, photo: '/images/Protfolio/9.png' }  
+]

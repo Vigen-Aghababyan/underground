@@ -123,19 +123,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Мобильная версия */
 @media (max-width: 1330px) {
     .nav {
@@ -157,5 +144,6 @@
     .nav ul li {
     width: 130px ;
     height: 27px;
-}
+    font-size: 14px;
+    }
 }
