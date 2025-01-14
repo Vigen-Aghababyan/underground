@@ -6,12 +6,12 @@ import { MASTERS } from '../Constants/Constants';
 const Masters = () => {
 
     
-    const [selectMaster, setSelectMaster] = useState({"id":"1","name":"Vil","style": "  Realism"})
+    const [selectMaster, setSelectMaster] = useState({"id":"1","name":"Vil","style": "Realism"})
     const { t } = useTranslation()
     
-    const masterImage = MASTERS.find(elem=>elem.id === +selectMaster.id).photo
+    const masterImage = MASTERS.find(elem=>elem.id === +selectMaster.id)
 
-    const handleSelectMaster = (master) => {
+    const handleSelectMaster = (master) => {        
         setSelectMaster(master)
     }
 
@@ -25,18 +25,18 @@ const Masters = () => {
                    
                      <div className={classes.vilText}>
                         <h4>{ mastersT[+selectMaster.id-1].name }</h4>
-                        <p>{ t(`masters.style`)} {mastersT[+selectMaster.id-1].style}</p>
-                        <p>@pnk_tattoos</p>
+                        <p><span>{ t(`masters.style`)}</span> {mastersT[+selectMaster.id-1].style}</p>
+                        <p>{masterImage.email}</p>
                     </div>
                     <div className={classes.imageMaster}>
-                        <img src={masterImage} alt="MasterImage" width={500} height={400} />
+                        <img src={masterImage.photo} alt="MasterImage" width={500} height={400} />
                     </div> 
                     <div className={classes.mastersName}>
                         <ul>
                             {
                                 mastersT.map((master) => (
                                 
-                                <li key={master.id} onClick={()=>handleSelectMaster(master)}>{master.name}</li>
+                                <li key={master.id} onClick={()=>handleSelectMaster(master)} className={selectMaster.id === master.id ? classes.active: null}>{master.name}</li>
                             ))
                         }
                         </ul>

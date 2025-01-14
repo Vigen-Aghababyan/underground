@@ -58,20 +58,17 @@ export const images = [
 ]
 
 
-export const BUTTONS = [
-    'images/Left.png',
-    'images/Right.png',
-]
+
 
 export const MASTERS = [
-    { id: 1,  photo: '/images/Protfolio/1.png' },
-    { id: 2, photo: '/images/Protfolio/2.png' },
-    { id: 3, photo: '/images/Protfolio/3.png' },
-    { id: 4, photo: '/images/Protfolio/4.png' },
-    { id: 5, photo: '/images/Protfolio/5.png' },
-    { id: 6, photo: '/images/Protfolio/6.png' },
-    { id: 7, photo: '/images/Protfolio/7.png' },
-    { id: 8, photo: '/images/Protfolio/8.png' },
-    { id: 9, photo: '/images/Protfolio/8.png' },
-    { id: 10, photo: '/images/Protfolio/9.png' }  
+    { id: 1,"email":"1",  photo: '/images/Protfolio/1.png' },
+    { id: 2, "email":"2", photo: '/images/Protfolio/2.png' },
+    { id: 3, "email":"3", photo: '/images/Protfolio/3.png' },
+    { id: 4, "email":"4", photo: '/images/Protfolio/4.png' },
+    { id: 5, "email":"5", photo: '/images/Protfolio/5.png' },
+    { id: 6, "email":"6", photo: '/images/Protfolio/6.png' },
+    { id: 7, "email":"7", photo: '/images/Protfolio/7.png' },
+    { id: 8, "email":"8", photo: '/images/Protfolio/8.png' },
+    { id: 9, "email":"9", photo: '/images/Protfolio/8.png' },
+    { id: 10, "email":"0", photo: '/images/Protfolio/9.png' }  
 ]

@@ -59,24 +59,24 @@ const Registration = () => {
                     <ul className={classes.social}>
                         <div>
                               <li>
-                            <a href="#">
+                            <a href="https://www.youtube.com/@undergroundtattoo.">
                                 <img src={youtub} alt="youtube" /> 
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://vk.com/club223675495">
                                 <img src={vk} alt="vk" />       
                             </a>
                         </li>
                       </div>
                         <div>
                              <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/underground.evn">
                                 <img src={facebook} alt="facebook" />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://t.me/underground">
                                 <img src={instagram} alt="instagram" />
                             </a>
                         </li>

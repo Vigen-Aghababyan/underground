@@ -62,15 +62,16 @@
     flex-direction: column;
     align-items: center;
     color: white;
+    cursor: pointer;
 }
 
 .mastersName p {
     margin-right: 80px;
     font-size: 30px;
-    position: relative;
+    /* position: relative; */
 }
 
-.mastersName p::after {
+/* .mastersName p::after {
     content: "";
     width: 70px;
     height: 2px;
@@ -79,6 +80,30 @@
     left: 120%;
     top: 50%;
 
+} */
+
+.active {
+    width: 160%;
+    cursor: pointer;
+    position: relative;
+    text-align: start;
+    margin-left: -50%;
+}
+
+
+.active::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right:0;
+    width: 0;
+    height: 5px;
+    background-color: var(--text-color);
+    transition: .3s;
+}
+
+.active::before {
+    width: 30%;
 }
 
 
@@ -106,9 +131,14 @@
         .vilText h4 {
             font-size: 30px;
         }
-    
+        .vilText span {
+            display: block
+        }
+
         .vilText p {
-            font-size: 16px;
+            font-size: 18px;
+            text-align: center;
+
         }
       
         .imageMaster img {
@@ -124,12 +154,24 @@
             margin-right: 80px;
             font-size: 16px;
         }
+
     
-        .mastersName p::after {
+.active {
+ color: red;
+ width: 100%;
+margin-left: 0;
+text-align: end;
+}
+
+
+.active::before {
+display: none;
+}
+        /* .mastersName p::after {
             content: "";
             width: 40px;
             left: 160%;
-        }
+        } */
         .mastersName ul {
             gap: 5px;
             font-size: 14px;

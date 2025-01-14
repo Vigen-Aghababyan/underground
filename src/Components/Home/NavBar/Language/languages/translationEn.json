@@ -16,7 +16,17 @@
     },
         "masters": {
         "style": "Style",
-        "master": [{"id":"1","name":"Vil","style": "  Realism"},{"id":"2","name":"Arthur","style": "Fine Line"},{"id":"3","name": "Harut","style": "Graphic"},{"id":"4","name": "Armen", "style": "Chicano & Realism"},{"id":"5","name":"Lusine", "style": "Graphic"},{"id":"6","name":"Hayk", "style": "Graphic"},{"id":"7","name":"Fyodor", "style": "Graphic"},{"id":"8","name":"Erika", "style": "Fine Line"},{"id":"9","name":"Valentin", "style": "Realism"},{"id":"10","name":"Mark", "style": "Realism & Japanese"}]
+        "master": [
+        {"id":"1","name":"Vil","style": "Realism"},
+        {"id":"2","name":"Arthur","style": "Fine Line"},
+        {"id":"3","name": "Harut","style": "Graphic"},
+        {"id":"4","name": "Armen", "style": "Chicano & Realism"},
+        {"id":"5","name":"Lusine", "style": "Graphic"},
+        {"id":"6","name":"Hayk", "style": "Graphic"},
+        {"id":"7","name":"Fyodor", "style": "Graphic"},
+        {"id":"8","name":"Erika", "style": "Fine Line"},
+        {"id":"9","name":"Valentin", "style": "Realism"},
+        {"id":"10","name":"Mark", "style": "Realism & Japanese"}]
     },
      "pirsting":"At our tattoo studio, piercing is performed by the best master, ensuring high quality and precision with every procedure. We offer a wide selection of jewelry to help you create your unique style.",
          "school": {

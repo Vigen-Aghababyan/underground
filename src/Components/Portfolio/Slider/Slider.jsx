@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import classes from './slider.module.css'
-import { BUTTONS, images } from '../../Constants/Constants';
+import left from '/images/Left.png'
+import right from '/images/Right.png'
+import { images } from '../../Constants/Constants';
 
 
 const Slider = () => {
@@ -26,7 +28,7 @@ const Slider = () => {
   return (
       <div className={classes.sliderContainer}>
       <button className={`${classes.sliderButton} ${classes.left}`} onClick={goToPrevious}>
-        <img src={BUTTONS[0]} alt="PREV" />
+        <img src={left} alt="PREV" />
       </button>
           <div className={classes.sliderImageContainer}>
         {visibleImages.map((image, index) => (
@@ -39,8 +41,7 @@ const Slider = () => {
         ))}
       </div>
           <button className={`${classes.sliderButton} ${classes.right}`} onClick={goToNext}>
-            <img src={BUTTONS[1]} alt="NEXT" />
-
+            <img src={right} alt="NEXT" />
       </button>
     </div>
   );
