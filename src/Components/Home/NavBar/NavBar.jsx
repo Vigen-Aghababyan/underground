@@ -3,6 +3,7 @@ import { NAVBAR } from "../../Constants/Constants";
 import Language from "./Language/Language";
 import classes from "./navbar.module.css"
 import { Link, scroller } from "react-scroll";
+import scrollTop from '../../../../public/images/top.svg'
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const NavBar = () => {
@@ -12,41 +13,65 @@ const NavBar = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState(NAVBAR[0].path);
+  const [scrolButtom,setScrollButton] = useState(false)
     
   const navbarRef = useRef(null)
-  
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    
+    if (scrollY > 160) {
+   setScrollButton(true)
+    } else {
+   setScrollButton(false)
+    }
+  };
+
+  const handleScrollTo = () => {
+    scroller.scrollTo(NAVBAR[0].path, {
+      smooth: true,
+      duration: 500,
+      offset: -10 //-navbarHeight, 
+      
+    });
+  }
 
    useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
+  
     };
 
     window.addEventListener('resize', handleResize);
-
+ window.addEventListener('scroll', handleScroll)
     return () => {
       window.removeEventListener('resize', handleResize);
+        window.removeEventListener('scroll', handleScroll)
     };
   }, []);
 
-  // Обработчик клика по бургер-меню
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
     useLayoutEffect(() => {
-      const navbarHeight = navbarRef.current ? navbarRef.current.offsetHeight : 0;
-    // Учитываем высоту фиксированного navbar при прокрутке
+      // const navbarHeight = navbarRef.current ? navbarRef.current.offsetHeight : 0;
     scroller.scrollTo(NAVBAR[0].path, {
       smooth: true,
       duration: 500,
-      offset:-10 //-navbarHeight, 
+      offset: -10 //-navbarHeight, 
+      
     });
-  }, []); // Пустой массив зависимости гарантирует, что код выполнится только один раз при монтировании компонента.
+  }, []); 
 
 
     return ( 
       <nav ref={navbarRef} className={classes.nav}>
-          {/* Если ширина окна больше 1330, показываем обычное меню */ }
+        {scrolButtom && <div className={classes.arrow} onClick={handleScrollTo}>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>}
         {windowWidth > 1330 ? (
           <ul className={classes.navLinks}>
             {
@@ -58,7 +83,7 @@ const NavBar = () => {
                     duration={500}
                     activeClass={activeSection === menu.path ? classes.activeLink : ''}
                     spy={true}
-                    offset= {-10}  //{-navbarRef.current?.offsetHeight} // Используем высоту navbar для расчета offset
+                    offset= {-10}  //{-navbarRef.current?.offsetHeight} 
                     onSetActive={() => {
                     
                       setActiveSection(menu.path)
@@ -79,12 +104,13 @@ const NavBar = () => {
                 
                 {isMenuOpen ? <button onClick={toggleMenu}>X</button> : <div className={classes.navrow} ><h2 onClick={() => {
                  scroller.scrollTo(NAVBAR[0].path, {
-      smooth: true,
-      duration: 500,
-      offset:-10 //-navbarHeight, 
-    });
+                        smooth: true,
+                        duration: 500,
+                        offset:-10 //-navbarHeight, 
+                      });
                   
-              }}  >UNDERGROUND</h2> <p onClick={toggleMenu}>☰</p> <Language /></div>}
+                  }}  >UNDERGROUND</h2> <p onClick={toggleMenu}>☰</p> <Language /></div>
+                }
               </div>
               
               {
@@ -99,7 +125,7 @@ const NavBar = () => {
                     duration={500}
                     activeClass={activeSection === menu.path ? classes.activeLink : ''}
                     spy={true}
-                    offset={-10}//{navbarRef.current?.offsetHeight} // Используем высоту navbar для расчета offset
+                    offset={-10}//{navbarRef.current?.offsetHeight}
                     onSetActive={() => setActiveSection(menu.path)}
                     onClick={()=>setIsMenuOpen(false)}
                   >

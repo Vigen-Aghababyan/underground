@@ -48,11 +48,12 @@
 .vilText p {
     font-size: 24px;
 }
-
-.imageMaster {
-    width: 30%;
+/* 
+.imageMaster img {
+    width: 50%;
     text-align: center;
-}
+    align-items: center;
+} */
 
 .mastersName {
     width: 36%;

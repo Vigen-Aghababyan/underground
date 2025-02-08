@@ -41,12 +41,10 @@
 
 }
 
-.learning{
-
+.learning, .price p{
+    font-size: 22px;
 }
-.price{
 
-}
 
 .masterclass{
 width: 50%;

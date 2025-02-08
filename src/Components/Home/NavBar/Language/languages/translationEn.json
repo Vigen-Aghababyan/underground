@@ -26,7 +26,9 @@
         {"id":"7","name":"Fyodor", "style": "Graphic"},
         {"id":"8","name":"Erika", "style": "Fine Line"},
         {"id":"9","name":"Valentin", "style": "Realism"},
-        {"id":"10","name":"Mark", "style": "Realism & Japanese"}]
+        {"id":"10","name":"Mark", "style": "Realism & Japanese"},
+        {"id":"11","name":"Cot", "style": "Old school & Japanese"}
+    ]
     },
      "pirsting":"At our tattoo studio, piercing is performed by the best master, ensuring high quality and precision with every procedure. We offer a wide selection of jewelry to help you create your unique style.",
          "school": {
@@ -58,9 +60,10 @@
         "number": "MOBILE",
         "numberPlace": "+374 77000000",
         "contact": "Contacts",
-        "phonNumber": "Phone Number: (WhatsApp/Telegram)",
+        "phonNumber": "Phone Number:",
         "phone": "+374-91-950-414",
         "adress": "Address: 22/1 Yervand Kochar",
-        "send": "Send"
+        "send": "Send",
+        "textArea": "Leave a message with a brief description of your tattoo idea, including your name, surname, and phone number. We will contact you to discuss the details and schedule an appointment!"
     }
 }

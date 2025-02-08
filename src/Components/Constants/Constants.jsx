@@ -46,29 +46,40 @@ export const LANGUAGES = [
 ]
 
 export const images = [
-    '/images/Protfolio/1.png',
-    '/images/Protfolio/2.png',
-    '/images/Protfolio/3.png',
-    '/images/Protfolio/4.png',
-    '/images/Protfolio/5.png',
-    '/images/Protfolio/6.png',
-    '/images/Protfolio/7.png',
-    '/images/Protfolio/8.png',
-    '/images/Protfolio/9.png'
+    '/images/Protfolio/1.JPG',
+    '/images/Protfolio/2.JPG',
+    '/images/Protfolio/3.JPG',
+    '/images/Protfolio/4.JPG',
+    '/images/Protfolio/5.JPG',
+    '/images/Protfolio/6.JPG',
+    '/images/Protfolio/7.JPG',
+    '/images/Protfolio/8.JPG',
+    '/images/Protfolio/9.JPG',
+    '/images/Protfolio/10.JPG',
+    '/images/Protfolio/11.JPG',
+    '/images/Protfolio/12.JPG',
+    '/images/Protfolio/13.JPG',
+    '/images/Protfolio/14.JPG',
+    '/images/Protfolio/15.JPG',
+    '/images/Protfolio/16.JPG',
+    '/images/Protfolio/17.JPG',
+    '/images/Protfolio/18.JPG',
+    '/images/Protfolio/19.JPG',
 ]
 
 
 
 
 export const MASTERS = [
-    { id: 1,"email":"1",  photo: '/images/Protfolio/1.png' },
-    { id: 2, "email":"2", photo: '/images/Protfolio/2.png' },
-    { id: 3, "email":"3", photo: '/images/Protfolio/3.png' },
-    { id: 4, "email":"4", photo: '/images/Protfolio/4.png' },
-    { id: 5, "email":"5", photo: '/images/Protfolio/5.png' },
-    { id: 6, "email":"6", photo: '/images/Protfolio/6.png' },
-    { id: 7, "email":"7", photo: '/images/Protfolio/7.png' },
-    { id: 8, "email":"8", photo: '/images/Protfolio/8.png' },
-    { id: 9, "email":"9", photo: '/images/Protfolio/8.png' },
-    { id: 10, "email":"0", photo: '/images/Protfolio/9.png' }  
+    { id: 1,"email":"@pnk_tattoos",  photo:'/images/Masters/1.JPG' },
+    { id: 2, "email":"@artattoooo", photo: '/images/Masters/2.JPG' },
+    { id: 3, "email":"@harut_tattoo_artist", photo: '/images/Masters/3.JPG' },
+    { id: 4, "email":"@artarmentattoo", photo: '/images/Masters/4.jpg' },
+    { id: 5, "email":"@tattoosfromme___", photo: '/images/Masters/5.JPG' },
+    { id: 6, "email":"@tattoo_saint.ink", photo: '/images/Masters/6.JPG' },
+    { id: 7, "email":"@fyodor_tattoo_yerevan", photo: '/images/Masters/7.JPG' },
+    { id: 8, "email":"@erika_mini_tattoo", photo: '/images/Masters/8.JPG' },
+    { id: 9, "email":"@tattoo_linskiy", photo: '/images/Masters/9.JPG' },
+    { id: 10, "email":"@ghostmantattoo", photo: '/images/Masters/10.JPG' },  
+    { id: 11, "email":"@cot.tattoo", photo: '/images/Masters/11.JPG' }  
 ]

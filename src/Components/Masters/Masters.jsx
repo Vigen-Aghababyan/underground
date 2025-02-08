@@ -3,16 +3,18 @@ import { useTranslation } from "react-i18next";
 import { useState } from 'react';
 import { MASTERS } from '../Constants/Constants';
 
+
 const Masters = () => {
 
     
     const [selectMaster, setSelectMaster] = useState({"id":"1","name":"Vil","style": "Realism"})
     const { t } = useTranslation()
-    
+    const insta = "https://www.instagram.com/"  
     const masterImage = MASTERS.find(elem=>elem.id === +selectMaster.id)
-
+    
     const handleSelectMaster = (master) => {        
         setSelectMaster(master)
+        
     }
 
     const mastersT = t('masters.master', { returnObjects: true })
@@ -22,14 +24,17 @@ const Masters = () => {
             <div className={classes.masters}>
                 <h3>{ t(`nav.masters`)}</h3>
                 <div className={classes.content}>
-                   
                      <div className={classes.vilText}>
                         <h4>{ mastersT[+selectMaster.id-1].name }</h4>
-                        <p><span>{ t(`masters.style`)}</span> {mastersT[+selectMaster.id-1].style}</p>
-                        <p>{masterImage.email}</p>
+                        <p>{mastersT[+selectMaster.id-1].style}</p>
+                        <a
+                            href={`${insta}${masterImage.email.substring(1)}`}
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            aria-label="Instagram">{masterImage.email}</a>
                     </div>
                     <div className={classes.imageMaster}>
-                        <img src={masterImage.photo} alt="MasterImage" width={500} height={400} />
+                        <img src={masterImage.photo} alt="MasterImage" width={500} height={400}/>
                     </div> 
                     <div className={classes.mastersName}>
                         <ul>
