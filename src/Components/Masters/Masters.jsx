@@ -30,11 +30,12 @@ const Masters = () => {
                         <a
                             href={`${insta}${masterImage.email.substring(1)}`}
                             target="_blank" 
-                            rel="noopener noreferrer" 
+                            rel="noopener noreferrer"
+                            style={{color: "#767694"}}
                             aria-label="Instagram">{masterImage.email}</a>
                     </div>
                     <div className={classes.imageMaster}>
-                        <img src={masterImage.photo} alt="MasterImage" width={500} height={400}/>
+                        <img src={masterImage.photo} alt="MasterImage" width={500}/>
                     </div> 
                     <div className={classes.mastersName}>
                         <ul>

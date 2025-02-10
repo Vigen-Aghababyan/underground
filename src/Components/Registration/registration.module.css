@@ -142,6 +142,10 @@
     /* gap: 50px; */
 }
 
+.errorMessage {
+    color: red;
+    font-size: 12px;
+}
 
 @media (max-width: 1330px) {
  

@@ -14,7 +14,7 @@ const Pirsting = () => {
                 <div className={classes.textPirsting}>
                     <div className={classes.avat}>
                         <img src={image} alt="pirting" />
-                        <a href="https://www.instagram.com/vahagn.piercer" target="_blanck">@vahagn.piercer</a>
+                        <a href="https://www.instagram.com/vahagn.piercer" target="_blanck" style={{color: "#767694"}}>@vahagn.piercer</a>
                    </div>
                     <p>{ t(`pirsting`)}</p>
                 </div>
