@@ -56,7 +56,7 @@
     "giftCardText":"A gift card from our studio can be the perfect surprise for those who appreciate creativity and style. Allow your loved ones to choose what they truly want!",
      "registration": {
         "name": "NAME",
-        "placeName": "ANI",
+        "placeName": "name",
         "number": "MOBILE",
         "numberPlace": "+374 77000000",
         "contact": "Contacts",
