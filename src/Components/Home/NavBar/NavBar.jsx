@@ -3,7 +3,6 @@ import { NAVBAR } from "../../Constants/Constants";
 import Language from "./Language/Language";
 import classes from "./navbar.module.css"
 import { Link, scroller } from "react-scroll";
-import scrollTop from '../../../../public/images/top.svg'
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 const NavBar = () => {

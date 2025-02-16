@@ -6,7 +6,6 @@ import { MASTERS } from '../Constants/Constants';
 
 const Masters = () => {
 
-    
     const [selectMaster, setSelectMaster] = useState({"id":"1","name":"Vil","style": "Realism"})
     const { t } = useTranslation()
     const insta = "https://www.instagram.com/"  
@@ -35,14 +34,14 @@ const Masters = () => {
                             aria-label="Instagram">{masterImage.email}</a>
                     </div>
                     <div className={classes.imageMaster}>
-                        <img src={masterImage.photo} alt="MasterImage" width={500}/>
+                        <img src={masterImage.photo} alt="MasterImage"/>
                     </div> 
                     <div className={classes.mastersName}>
                         <ul>
                             {
                                 mastersT.map((master) => (
                                 
-                                <li key={master.id} onClick={()=>handleSelectMaster(master)} className={selectMaster.id === master.id ? classes.active: null}>{master.name}</li>
+                                <li key={master.id} onClick={()=>handleSelectMaster(master)} className={`${classes.text} ${selectMaster.id === master.id ? classes.active: null}`}>{master.name}</li>
                             ))
                         }
                         </ul>

@@ -1,22 +1,21 @@
 .sliderContainer {
     position: relative;
-    width: 80%;
+    width: 100%;
     max-width: 900px;
-    /* Можно увеличить для трех изображений */
-    margin: auto;
-    /* overflow: hidden; */
+
 }
 
 .sliderImageContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2%;
     align-items: center;
     transition: transform 0.5s ease-in-out;
 }
 
 .sliderImage {
-    width: 270px;
-    height: 450px;
+    width: 33%;
+    height: 70vh;
     display: block;
 }
 
@@ -38,21 +37,17 @@
     left: -200px;
 }
 
+
 .sliderButton.right {
     right: -200px;
 }
 
 @media (max-width: 1330px) {
 
-.sliderContainer {
-       
-        width: 90%;
-        max-width: 500px;
-       
-    }
     .sliderImage {
-        width: 100px;
-        height: 170px;
+    width: 33%;
+    height: 30vh;
+    padding: 0 2%;
     }
 
     .sliderButton img {
@@ -60,10 +55,10 @@
         height: 15px;
     }
     .sliderButton.left {
-        left: -50px;
+        left: -37px;
     }
 
     .sliderButton.right {
-        right: -50px;
+        right: -37px;
     }
 }
