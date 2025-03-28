@@ -71,15 +71,15 @@ export const images = [
 
 
 export const MASTERS = [
-    { id: 1,"email":"@pnk_tattoos",  photo:'/images/Masters/1.JPG' },
-    { id: 2, "email":"@artattoooo", photo: '/images/Masters/2.JPG' },
-    { id: 3, "email":"@harut_tattoo_artist", photo: '/images/Masters/3.JPG' },
-    { id: 4, "email":"@artarmentattoo", photo: '/images/Masters/4.jpg' },
-    { id: 5, "email":"@tattoosfromme___", photo: '/images/Masters/5.JPG' },
-    { id: 6, "email":"@tattoo_saint.ink", photo: '/images/Masters/6.JPG' },
-    { id: 7, "email":"@fyodor_tattoo_yerevan", photo: '/images/Masters/7.JPG' },
-    { id: 8, "email":"@erika_mini_tattoo", photo: '/images/Masters/8.JPG' },
-    { id: 9, "email":"@tattoo_linskiy", photo: '/images/Masters/9.JPG' },
-    { id: 10, "email":"@ghostmantattoo", photo: '/images/Masters/10.JPG' },  
-    { id: 11, "email":"@cot.tattoo", photo: '/images/Masters/11.JPG' }  
+    { id: 1,"email":"@pnk_tattoos",  photo:'/images/Masters/vil.JPG' },
+    { id: 2, "email":"@artattoooo", photo: '/images/Masters/artur.JPG' },
+    { id: 3, "email":"@harut_tattoo_artist", photo: '/images/Masters/harut.png' },
+    { id: 4, "email":"@artarmentattoo", photo: '/images/Masters/armen.jpg' },
+    { id: 5, "email":"@tattoosfromme___", photo: '/images/Masters/lusine.JPG' },
+    { id: 6, "email":"@tattoo_saint.ink", photo: '/images/Masters/hayk.jpg' },
+    { id: 7, "email":"@fyodor_tattoo_yerevan", photo: '/images/Masters/fedya.JPG' },
+    { id: 8, "email":"@erika_mini_tattoo", photo: '/images/Masters/erika.jpg' },
+    { id: 9, "email":"@tattoo_linskiy", photo: '/images/Masters/valentin.jpg' },
+    { id: 10, "email":"@ghostmantattoo", photo: '/images/Masters/mark.JPG' },
+    { id: 11, "email":"@cot.tattoo", photo: '/images/Masters/cot.jpg' }
 ]
