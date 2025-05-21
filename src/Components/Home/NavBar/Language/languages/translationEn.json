@@ -11,8 +11,11 @@
     },
      "home":{
         "create": "CREATING THE STUDIO, A TEAM OF ARTISTS",
+        "create_mobile": "",
         "studio": "underground evn",
-        "cell": "DEFINED ITS CORE PRINCIPLE OF WORK: HELPING CLIENTS MAKE A CONSCIOUS CHOICE IN SELECTING THEIR FUTURE TATTOO"
+        "studio_mobile": "underground evn",
+        "cell": "DEFINED ITS CORE PRINCIPLE OF WORK: HELPING CLIENTS MAKE A CONSCIOUS CHOICE IN SELECTING THEIR FUTURE TATTOO",
+        "cell_mobile": ""
     },
         "masters": {
         "style": "Style",

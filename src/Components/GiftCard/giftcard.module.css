@@ -32,6 +32,9 @@
     font-size: 36px;
 }
 
+.giftCont img {
+    margin-bottom: 50px;
+}
 
 @media (max-width: 1330px) {
 
@@ -47,9 +50,11 @@
     .giftCont img {
         width: 200px ;
         height: 300px;
+        margin-bottom: 30px;
     }
+
     .giftCont p {
-    width: 100%;
-    font-size: 22px;
-}
+        width: 100%;
+        font-size: 22px;
+    }
 }

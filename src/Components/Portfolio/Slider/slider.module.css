@@ -61,3 +61,14 @@
         right: -37px;
     }
 }
+
+@media (max-width: 767px) {
+    .sliderImageContainer {
+        gap: 0;
+    }
+
+    .sliderImage {
+        width: 100%;
+        max-width: 300px;
+    }
+}
